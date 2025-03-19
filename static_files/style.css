@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    background-color: #1c1e22;
+    color: #f0f0f0;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #15171a;
+    padding: 20px;
+    color: #f0f0f0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 10px 0;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+form {
+    background-color: #3a0e0e;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+input, button {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #570909;
+    border-radius: 3px;
+    background-color: #2e0b0b;
+    color: #f0f0f0;
+}
+
+button:hover {
+    background-color: #4b0d0d;
+    cursor: pointer;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #2e0b0b;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 150px;
+    color: #f0f0f0;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 3px;
+}
+
+.delete-btn {
+    background-color: #570909;
+    color: #f0f0f0;
+    border: none;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+
+.delete-btn:hover {
+    background-color: #750c0c;
+}
+
+.ads {
+    width: 200px;
+    background-color: #15171a;
+    padding: 20px;
+    color: #f0f0f0;
+}
+
+.ad-img {
+    background-color: #2e0b0b;
+    height: 100px;
+    margin: 5px 0;
+    border-radius: 5px;
+}

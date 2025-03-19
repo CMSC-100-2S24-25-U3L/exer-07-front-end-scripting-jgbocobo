@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Favorite Foods</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/form.js" defer></script>
+</head>
+<body>
+    <div class="sidebar">
+        <ul>
+            <li>FAVORITE FOOD</li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <form id="food-form">
+            <input type="text" id="food-name" placeholder="Food Name" required>
+            <input type="text" id="food-description" placeholder="Description" required>
+            <input type="text" id="image-url" placeholder="Image URL" required>
+            <input type="number" min="1" id="food-rank" placeholder="Rank" required>
+            <button type="submit">Add Food</button>
+        </form>
+        <div id="food-cards" class="cards-container"></div>
+    </div>
+
+    <div class="ads">
+        <h3>ADS</h3>
+        <div class="ad-img">img</div>
+        <div class="ad-img">img</div>
+        <div class="ad-img">img</div>
+    </div>
+</body>
+</html>
